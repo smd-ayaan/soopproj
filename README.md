@@ -1,1 +1,24 @@
-Project for our course - structured and object oriented programming (SOOP)
+## by SOOP_GANG
+This is a project for our course - Structured and Object Oriented Programming (SOOP)
+
+# About
+It is a basic addition to the ncurses library used to make terminal user interfaces (TUIs).
+The library will provide a set of well abstracted tools to make terminal applications easily in cpp.
+
+The main feature of the library is the abstraction of a basic framebuffer for the screen. Which has to be implemented manually in vanilla ncurses
+//feature or addition to the library
+//it is not planned out yet if it will be a completely new library abstraction wrapper on ncurses or just a tiny addition
+
+We made this project to test out our skills in the C and C++ we learnt during this course.
+We will also provide a simple example game(if time permits to show usage of this tool)
+
+# Features
+C++ wrapper for ncurses initialization and input
+Framebuffer abstraction for screen drawing
+Simple rendering API
+Example demo (game or animation)
+
+# Contributore
+Laksh Raja - 25BCE0161
+Abhiram .........
+Ayaan ........
