@@ -20,5 +20,6 @@ Example demo (game or animation)
 
 # Contributore
 Laksh Raja - 25BCE0161
-Abhiram .........
-Ayaan ........
+Mohammed Ayaan - 25BCE0567
+Abhiram Mopidevi - 25BCE2150
+
