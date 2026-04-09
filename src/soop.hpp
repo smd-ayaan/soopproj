@@ -1,20 +1,23 @@
 //should be ncurses
 #include<curses.h>
-#include<cmath.h>
+#include<cmath>
 
 
 class SOOP
 {
 private:
 	int width,height;
-	WINDOW *rootWin, mainWin;
+	WINDOW *rootWin, *mainWin;
+	char **buffer;
 public:
 	SOOP(int w, int h);
 
-	clear();
-	draw();
+	int init();
 
-	put(int x, int y, char c);
+	void clear();
+	void draw();
+
+	void put(int x, int y, char c);
 
 	~SOOP();
 
